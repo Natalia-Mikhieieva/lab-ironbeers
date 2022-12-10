@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* here are styles for nav bar */
@@ -97,6 +98,10 @@ img {
   flex-wrap: wrap;
 }
 
+.container-random-beer {
+  display: flex;
+}
+
 .imgbeers {
   width: 100px;
   max-width: 50px;
@@ -106,8 +111,19 @@ img {
 /* here is style for random beer */
 .img-random-beer {
   width: 100px;
-  max-width: 50px;
-  height: auto;
+}
+
+.body-random-beer {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.body-random-beer h2 {
+  margin-top: 20px;
+}
+
+.body-random-beer h4 {
+  margin-top: 20px;
 }
 
 /* here is style for footer */
