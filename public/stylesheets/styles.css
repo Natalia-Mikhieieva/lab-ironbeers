@@ -138,3 +138,49 @@ footer {
   padding-top: 10px;
   position: fixed;
 }
+
+#beerDisplay {
+  display: flex;
+  flex-flow: row wrap ;
+  justify-content: center;
+}
+
+
+#allBeers {
+  width : 450px;
+  margin: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+#allBeers img {   
+  display: block;
+  max-height:150px;
+  max-width: 200px;
+  width: auto;
+  height: auto;
+  margin: 20px;
+}
+
+#description {
+  display: flex;
+  flex-flow: column  nowrap;
+  text-align: justify; 
+}
+
+#description h1{ 
+  font-size: 20px;
+  color: black;
+}
+#description h2{ 
+  font-size: 13px;
+  color: lightgrey;
+  margin-bottom: 20px;
+}
+
+
+#description p{ 
+  font-size: 13px;
+  color: black;
+}

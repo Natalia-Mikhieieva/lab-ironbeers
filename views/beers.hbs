@@ -1,11 +1,12 @@
-<div class='allbeers'>
+
   {{#each beers}}
-    <div class='container'>
+    <div id='allBeers' class='container'>
       <img class='imgbeers' src={{this.image_url}} />
+      <div id="description">
       <h1>{{this.name}}</h1>
-      <p>{{this.tagline}}</p>
+      <h2>{{this.tagline}}</h2>
       <p>{{this.description}}</p>
+      </div>
     </div>
 
   {{/each}}
-</div>
